@@ -1,0 +1,128 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {background-color: #e1e8fd;
+
+}
+.backround {
+height: 600px;
+
+
+} 
+.backround img
+{
+height: 300px;
+width: 100%;
+}
+.box {
+    background-color: white;
+    width: 450px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.5) 15px 15px 15px;
+    text-align: center;
+
+
+
+}
+.hero-image {
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+ }
+
+ .hero-text
+ { font-family: Arial, Helvetica, sans-serif;
+padding-top: 30px;
+padding-right: 80px;
+padding-left: 80px;
+color: grey;
+}
+.box p {
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.box2 {
+    background-color: hsl(225, 100%, 98%);
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box2 img {
+    padding: 20px;
+}
+.price {
+    color: grey;
+    padding-right: 20px;
+
+}
+
+.box2 section{
+    padding-top: 20px;
+}
+
+.change {
+    padding: 20px;
+}
+
+.btn{
+    list-style: none;
+    padding-top:50px;
+    padding-left: 60px;
+}
+
+li a {
+    text-decoration: none;
+}
+.box3   {
+    background-color: rgb(111, 0, 255);
+    width: 350px;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.cancel {
+    padding-top: 50px;
+    color: gray;
+}
+.button {
+    background-color: rgb(111, 0, 255);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 110px;
+    font-size: 18px;
+}
+.cancel {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 15px;
+    padding-top: 30px;
+    border: gray;
+    text-decoration: none;
+}
